@@ -1,0 +1,22 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@{
+    ViewData["Title"] = "Entrar";
+}
+
+<h1>Entrar</h1>
+
+<form method="post">
+    <div>
+        <label for="username">Usuário</label>
+        <input type="text" id="username" name="username" required />
+    </div>
+    <div>
+        <label for="password">Senha</label>
+        <input type="password" id="password" name="password" required />
+    </div>
+    <button type="submit">Login</button>
+    <a href="/Entrar/Cadastrar">Criar Conta</a>
+</form>
