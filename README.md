@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Criando meu primeiro projeto ASP.NET
 
 Este projeto é uma aplicação web desenvolvida com .NET, utilizando as ferramentas e bibliotecas mais recentes para criar um sistema de autenticação e gerenciamento de usuários.
@@ -48,3 +49,17 @@ Este projeto está licenciado sob a [MIT License](LICENSE).
 ## Nota
 
 Irei adicionar observações e atualizações ao longo do tempo.
+=======
+# Criando meu primeiro projeto .NET
+ Ferramentas:
+ * Visual Studio Community 2022 (64 bits) - Versão 17.11.4
+ * .NET 8
+ * Microsoft.AspNetCore.Identity.EntityFrameworkCore
+ * Microsoft.AspNetCore.Identity.UI
+ * Microsoft.EntityFrameworkCore
+ * Microsoft.EntityFrameworkCore.SqlServer
+ * Microsoft.EntityFrameworkCore.Tools
+
+### NOTA
+Irei adicionar observações ao longo do tempo.
+>>>>>>> 1a659a061a39951bd1f1e55cd7ccd5a9f38680dd
