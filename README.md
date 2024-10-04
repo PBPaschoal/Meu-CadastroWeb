@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Criando meu primeiro projeto ASP.NET
 
 Este projeto é uma aplicação web desenvolvida com .NET, utilizando as ferramentas e bibliotecas mais recentes para criar um sistema de autenticação e gerenciamento de usuários.
@@ -62,4 +61,3 @@ Irei adicionar observações e atualizações ao longo do tempo.
 
 ### NOTA
 Irei adicionar observações ao longo do tempo.
->>>>>>> 1a659a061a39951bd1f1e55cd7ccd5a9f38680dd
