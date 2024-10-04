@@ -1,48 +1,129 @@
-/*html {
-  font-size: 14px;
-}
-
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
-}
-
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
-}
-
-html {
-  position: relative;
-  min-height: 100%;
-}
-
-body {
-  margin-bottom: 60px;
-} */
-
+/* Define um estilo básico para o corpo */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #000000; /* Cor de fundo clara #f8f9fa */
+    background-color: #f8f9fa; /* Fundo claro */
+    color: #333; /* Cor do texto */
 }
 
+/* Estilos para a navbar */
 .navbar {
-    margin-bottom: 20px; /* Espaço abaixo da navbar */
+    margin-bottom: 20px;
+    background-color: #0069d1; /* Cor do fundo da navbar */
 }
 
-.nav-link {
-    margin-right: 15px; /* Espaço entre os links do menu */
-    background-color: #0069d1;
+.navbar-brand {
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
 }
 
+.navbar-nav .nav-link {
+    color: black;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+    /* Efeito hover nos links da navbar */
+    .navbar-nav .nav-link:hover,
+    .navbar-nav .nav-link.active:hover {
+        background-color: #00c3ff;
+        border-radius: 5px;
+        color: white;
+    }
+
+/* Principal */
+main.container {
+    padding-top: 40px; /* Espaçamento no topo */
+    min-height: 70vh; /* Altura mínima da área de conteúdo */
+}
+
+/* Estilos para o rodapé */
 .footer {
     text-align: center;
     padding: 20px;
-    background-color: #343a40; /* Cor escura para o rodapé */
-    color: white; /* Cor do texto do rodapé */
+    background-color: #343a40;
+    color: white;
     position: relative;
     bottom: 0;
     width: 100%;
+}
+
+/* Estilo para espaçar o conteúdo dentro da página */
+.container {
+    padding: 20px;
+}
+
+/* Aplique espaçamento vertical em elementos principais */
+h1, h2, h3, p {
+    margin-bottom: 20px;
+}
+
+/* Estilo da página de login */
+.login-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.login-title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+/* Estilos para o formulário de login */
+.login-form .form-group {
+    margin-bottom: 20px;
+}
+
+.login-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+.login-form .form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.login-form .form-actions {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.login-form .btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #0069d1;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+    .login-form .btn:hover {
+        background-color: #005bb5;
+    }
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .navbar-brand {
+        font-size: 1.2rem;
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 0.9rem;
+    }
 }

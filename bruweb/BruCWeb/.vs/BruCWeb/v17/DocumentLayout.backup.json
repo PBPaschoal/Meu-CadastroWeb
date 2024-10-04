@@ -1,26 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Admcia\\Documents\\bruweb\\BruCWeb\\",
+  "WorkspaceRootPath": "D:\\PBPaschoal\\Programa\u00E7\u00E3o\\Meu-CadastroWeb\\bruweb\\BruCWeb\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0B883B3B-A738-4DAE-BD57-45E1E295BF99}|BruCWeb\\BruCWeb.csproj|c:\\users\\admcia\\documents\\bruweb\\brucweb\\brucweb\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{0B883B3B-A738-4DAE-BD57-45E1E295BF99}|BruCWeb\\BruCWeb.csproj|solutionrelative:brucweb\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{0B883B3B-A738-4DAE-BD57-45E1E295BF99}|BruCWeb\\BruCWeb.csproj|d:\\pbpaschoal\\programa\u00E7\u00E3o\\meu-cadastroweb\\bruweb\\brucweb\\brucweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B883B3B-A738-4DAE-BD57-45E1E295BF99}|BruCWeb\\BruCWeb.csproj|solutionrelative:brucweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B883B3B-A738-4DAE-BD57-45E1E295BF99}|BruCWeb\\BruCWeb.csproj|c:\\users\\admcia\\documents\\bruweb\\brucweb\\brucweb\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{0B883B3B-A738-4DAE-BD57-45E1E295BF99}|BruCWeb\\BruCWeb.csproj|d:\\pbpaschoal\\programa\u00E7\u00E3o\\meu-cadastroweb\\bruweb\\brucweb\\brucweb\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0B883B3B-A738-4DAE-BD57-45E1E295BF99}|BruCWeb\\BruCWeb.csproj|solutionrelative:brucweb\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B883B3B-A738-4DAE-BD57-45E1E295BF99}|BruCWeb\\BruCWeb.csproj|c:\\users\\admcia\\documents\\bruweb\\brucweb\\brucweb\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{0B883B3B-A738-4DAE-BD57-45E1E295BF99}|BruCWeb\\BruCWeb.csproj|d:\\pbpaschoal\\programa\u00E7\u00E3o\\meu-cadastroweb\\bruweb\\brucweb\\brucweb\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{0B883B3B-A738-4DAE-BD57-45E1E295BF99}|BruCWeb\\BruCWeb.csproj|solutionrelative:brucweb\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B883B3B-A738-4DAE-BD57-45E1E295BF99}|BruCWeb\\BruCWeb.csproj|c:\\users\\admcia\\documents\\bruweb\\brucweb\\brucweb\\views\\contatos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0B883B3B-A738-4DAE-BD57-45E1E295BF99}|BruCWeb\\BruCWeb.csproj|solutionrelative:brucweb\\views\\contatos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0B883B3B-A738-4DAE-BD57-45E1E295BF99}|BruCWeb\\BruCWeb.csproj|c:\\users\\admcia\\documents\\bruweb\\brucweb\\brucweb\\brucweb.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{0B883B3B-A738-4DAE-BD57-45E1E295BF99}|BruCWeb\\BruCWeb.csproj|solutionrelative:brucweb\\brucweb.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{0B883B3B-A738-4DAE-BD57-45E1E295BF99}|BruCWeb\\BruCWeb.csproj|d:\\pbpaschoal\\programa\u00E7\u00E3o\\meu-cadastroweb\\bruweb\\brucweb\\brucweb\\views\\imagens\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0B883B3B-A738-4DAE-BD57-45E1E295BF99}|BruCWeb\\BruCWeb.csproj|solutionrelative:brucweb\\views\\imagens\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,66 +31,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "site.js",
-              "DocumentMoniker": "C:\\Users\\Admcia\\Documents\\bruweb\\BruCWeb\\BruCWeb\\wwwroot\\js\\site.js",
-              "RelativeDocumentMoniker": "BruCWeb\\wwwroot\\js\\site.js",
-              "ToolTip": "C:\\Users\\Admcia\\Documents\\bruweb\\BruCWeb\\BruCWeb\\wwwroot\\js\\site.js",
-              "RelativeToolTip": "BruCWeb\\wwwroot\\js\\site.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-10-03T17:51:06.344Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Admcia\\Documents\\bruweb\\BruCWeb\\BruCWeb\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "BruCWeb\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Admcia\\Documents\\bruweb\\BruCWeb\\BruCWeb\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "BruCWeb\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAACMAAAAAAAAAAAAkwDMAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-03T17:28:50.997Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\Admcia\\Documents\\bruweb\\BruCWeb\\BruCWeb\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "BruCWeb\\wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\Admcia\\Documents\\bruweb\\BruCWeb\\BruCWeb\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "BruCWeb\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAACYAAAAAAAAAAAAUwDAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-03T17:28:37.712Z",
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\PBPaschoal\\Programa\u00E7\u00E3o\\Meu-CadastroWeb\\bruweb\\BruCWeb\\BruCWeb\\Program.cs",
+              "RelativeDocumentMoniker": "BruCWeb\\Program.cs",
+              "ToolTip": "D:\\PBPaschoal\\Programa\u00E7\u00E3o\\Meu-CadastroWeb\\bruweb\\BruCWeb\\BruCWeb\\Program.cs",
+              "RelativeToolTip": "BruCWeb\\Program.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T23:44:51.486Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Admcia\\Documents\\bruweb\\BruCWeb\\BruCWeb\\Views\\Contatos\\Index.cshtml",
-              "RelativeDocumentMoniker": "BruCWeb\\Views\\Contatos\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Admcia\\Documents\\bruweb\\BruCWeb\\BruCWeb\\Views\\Contatos\\Index.cshtml",
-              "RelativeToolTip": "BruCWeb\\Views\\Contatos\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "D:\\PBPaschoal\\Programa\u00E7\u00E3o\\Meu-CadastroWeb\\bruweb\\BruCWeb\\BruCWeb\\Views\\Imagens\\Index.cshtml",
+              "RelativeDocumentMoniker": "BruCWeb\\Views\\Imagens\\Index.cshtml",
+              "ToolTip": "D:\\PBPaschoal\\Programa\u00E7\u00E3o\\Meu-CadastroWeb\\bruweb\\BruCWeb\\BruCWeb\\Views\\Imagens\\Index.cshtml",
+              "RelativeToolTip": "BruCWeb\\Views\\Imagens\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-03T17:27:12.361Z",
+              "WhenOpened": "2024-10-03T22:49:35.969Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "BruCWeb.csproj",
-              "DocumentMoniker": "C:\\Users\\Admcia\\Documents\\bruweb\\BruCWeb\\BruCWeb\\BruCWeb.csproj",
-              "RelativeDocumentMoniker": "BruCWeb\\BruCWeb.csproj",
-              "ToolTip": "C:\\Users\\Admcia\\Documents\\bruweb\\BruCWeb\\BruCWeb\\BruCWeb.csproj",
-              "RelativeToolTip": "BruCWeb\\BruCWeb.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-03T16:12:56.659Z",
+              "DocumentIndex": 2,
+              "Title": "site.css",
+              "DocumentMoniker": "D:\\PBPaschoal\\Programa\u00E7\u00E3o\\Meu-CadastroWeb\\bruweb\\BruCWeb\\BruCWeb\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "BruCWeb\\wwwroot\\css\\site.css",
+              "ToolTip": "D:\\PBPaschoal\\Programa\u00E7\u00E3o\\Meu-CadastroWeb\\bruweb\\BruCWeb\\BruCWeb\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "BruCWeb\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAGEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-03T22:15:52.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\PBPaschoal\\Programa\u00E7\u00E3o\\Meu-CadastroWeb\\bruweb\\BruCWeb\\BruCWeb\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "BruCWeb\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\PBPaschoal\\Programa\u00E7\u00E3o\\Meu-CadastroWeb\\bruweb\\BruCWeb\\BruCWeb\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "BruCWeb\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAACQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-03T21:55:53.592Z",
               "EditorCaption": ""
             }
           ]

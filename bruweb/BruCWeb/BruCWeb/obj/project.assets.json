@@ -4518,24 +4518,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Admcia\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\paulo\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admcia\\Documents\\bruweb\\BruCWeb\\BruCWeb\\BruCWeb.csproj",
+      "projectUniqueName": "D:\\PBPaschoal\\Programação\\Meu-CadastroWeb\\bruweb\\BruCWeb\\BruCWeb\\BruCWeb.csproj",
       "projectName": "BruCWeb",
-      "projectPath": "C:\\Users\\Admcia\\Documents\\bruweb\\BruCWeb\\BruCWeb\\BruCWeb.csproj",
-      "packagesPath": "C:\\Users\\Admcia\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admcia\\Documents\\bruweb\\BruCWeb\\BruCWeb\\obj\\",
+      "projectPath": "D:\\PBPaschoal\\Programação\\Meu-CadastroWeb\\bruweb\\BruCWeb\\BruCWeb\\BruCWeb.csproj",
+      "packagesPath": "C:\\Users\\paulo\\.nuget\\packages\\",
+      "outputPath": "D:\\PBPaschoal\\Programação\\Meu-CadastroWeb\\bruweb\\BruCWeb\\BruCWeb\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Admcia\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\paulo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

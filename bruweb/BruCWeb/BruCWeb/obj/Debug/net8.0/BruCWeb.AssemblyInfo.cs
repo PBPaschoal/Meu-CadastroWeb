@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BruCWeb")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b05a7c100b8bcc4cf377cf90b6a64b1f8d69eef0")]
 [assembly: System.Reflection.AssemblyProductAttribute("BruCWeb")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BruCWeb")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
