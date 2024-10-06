@@ -1,71 +1,83 @@
-/* Define um estilo básico para o corpo */
+/* Define um estilo bï¿½sico para o corpo */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f8f9fa; /* Fundo claro */
-    color: #333; /* Cor do texto */
+    background-color: rgb(248, 249, 250);
+    /* Fundo claro */
+    color: rgb(51, 51, 51);
+    /* Cor do texto */
 }
 
 /* Estilos para a navbar */
 .navbar {
     margin-bottom: 20px;
-    background-color: #0069d1; /* Cor do fundo da navbar */
+    background-color: rgb(0, 105, 209);
+    /* Cor do fundo da navbar */
+}
+
+.navbar {
+    background-color: rgba(128, 0, 128); /* Cor roxa */
 }
 
 .navbar-brand {
-    color: white;
+    color: rgb(255, 255, 255);
     font-weight: bold;
     font-size: 1.5rem;
 }
 
 .navbar-nav .nav-link {
-    color: black;
+    color: rgb(0, 125, 209);
     font-weight: bold;
     margin-right: 15px;
 }
 
-    /* Efeito hover nos links da navbar */
-    .navbar-nav .nav-link:hover,
-    .navbar-nav .nav-link.active:hover {
-        background-color: #00c3ff;
-        border-radius: 5px;
-        color: white;
-    }
+/* Efeito hover nos links da navbar */
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active:hover {
+    background: linear-gradient(to right, rgb(87, 0, 128), rgb(177, 0, 177));
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+}
 
 /* Principal */
 main.container {
-    padding-top: 40px; /* Espaçamento no topo */
-    min-height: 70vh; /* Altura mínima da área de conteúdo */
+    padding-top: 40px;
+    /* Espaï¿½amento no topo */
+    min-height: 70vh;
+    /* Altura mï¿½nima da ï¿½rea de conteï¿½do */
 }
 
-/* Estilos para o rodapé */
+/* Estilos para o rodapï¿½ */
 .footer {
     text-align: center;
     padding: 20px;
-    background-color: #343a40;
-    color: white;
+    background-color: rgb(52, 58, 64);
+    color: rgb(255, 255, 255);
     position: relative;
     bottom: 0;
     width: 100%;
 }
 
-/* Estilo para espaçar o conteúdo dentro da página */
+/* Estilo para espaï¿½ar o conteï¿½do dentro da pï¿½gina */
 .container {
     padding: 20px;
 }
 
-/* Aplique espaçamento vertical em elementos principais */
-h1, h2, h3, p {
+/* Aplique espaï¿½amento vertical em elementos principais */
+h1,
+h2,
+h3,
+p {
     margin-bottom: 20px;
 }
 
-/* Estilo da página de login */
+/* Estilo da pï¿½gina de login */
 .login-container {
     max-width: 400px;
     margin: 50px auto;
     padding: 40px;
-    background-color: #ffffff;
+    background-color: rgb(255, 255, 255);
     border-radius: 8px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
@@ -74,10 +86,10 @@ h1, h2, h3, p {
     text-align: center;
     font-size: 24px;
     margin-bottom: 30px;
-    color: #333;
+    color: rgb(51, 51, 51);
 }
 
-/* Estilos para o formulário de login */
+/* Estilos para o formulï¿½rio de login */
 .login-form .form-group {
     margin-bottom: 20px;
 }
@@ -86,13 +98,13 @@ h1, h2, h3, p {
     display: block;
     margin-bottom: 8px;
     font-weight: bold;
-    color: #333;
+    color: rgb(51, 51, 51);
 }
 
 .login-form .form-control {
     width: 100%;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid rgb(204, 204, 204);
     border-radius: 5px;
     font-size: 16px;
 }
@@ -105,17 +117,17 @@ h1, h2, h3, p {
 .login-form .btn {
     padding: 10px 20px;
     font-size: 16px;
-    background-color: #0069d1;
-    color: white;
+    background: linear-gradient(to right, rgb(0, 125, 209), rgb(1, 11, 155));
+    color: rgb(255, 255, 255);
     border: none;
     border-radius: 5px;
     cursor: pointer;
     width: 100%;
 }
 
-    .login-form .btn:hover {
-        background-color: #005bb5;
-    }
+.login-form .btn:hover {
+    background: linear-gradient(to right, rgb(87, 0, 128), rgb(177, 0, 177));
+}
 
 /* Responsividade */
 @media (max-width: 768px) {
