@@ -9,6 +9,13 @@
 <div class="login-container">
     <h1 class="login-title">Entrar</h1>
 
+    @if (TempData["Message"] != null)
+    {
+        <div class="alert alert-success">
+            @TempData["Message"]
+        </div>
+    }
+
     <form method="post" class="login-form">
         <div class="form-group">
             <label for="username">Usuário</label>
