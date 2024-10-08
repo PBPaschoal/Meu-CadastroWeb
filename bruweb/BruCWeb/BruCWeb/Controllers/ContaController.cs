@@ -1,16 +1,20 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using CadastroWeb.Models; // Supondo que você tenha um modelo para as contas
-using System.Linq;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
+using CadastroWeb.Models;
 using CadastroWeb.Data;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace CadastroWeb.Controllers
 {
     public class ContaController : Controller
     {
-        private readonly ApplicationDbContext _context; // A injeção do contexto do banco
+        private readonly UserManager<IdentityUser> _userManager;
+        private readonly ApplicationDbContext _context;
 
-        public ContaController(ApplicationDbContext context)
+        public ContaController(UserManager<IdentityUser> userManager, ApplicationDbContext context)
         {
+            _userManager = userManager;
             _context = context;
         }
 
@@ -21,32 +25,39 @@ namespace CadastroWeb.Controllers
         }
 
         [HttpPost]
-        public IActionResult Criar(string username, string firstName, string lastName, string email, DateTime birthdate, string gender, string password)
+        public async Task<IActionResult> Criar(string username, string firstName, string lastName, string email, DateTime birthdate, string gender, string password)
         {
             // Verifica se o nome de usuário já existe
-            if (_context.Users.Any(u => u.Username == username))
+            if (_context.Users.Any(u => u.UserName == username))
             {
                 ModelState.AddModelError("username", "Nome de usuário já existe. Escolha outro.");
-                return View();
+                return View(); // Retorna a view com os dados inseridos, mas sem os valores
             }
 
-            // Aqui você implementa a lógica de criação da conta, salvando no banco de dados
-            var user = new User
+            var user = new IdentityUser { UserName = username, Email = email };
+            var result = await _userManager.CreateAsync(user, password); // Cria o usuário
+
+            if (result.Succeeded)
+            {
+                TempData["Message"] = "Conta criada com sucesso!";
+                return RedirectToAction("Index", "Entrar");
+            }
+
+            foreach (var error in result.Errors)
+            {
+                ModelState.AddModelError(string.Empty, error.Description);
+            }
+
+            // Aqui é onde você deve retornar a view com os dados preenchidos
+            return View(new User
             {
                 Username = username,
                 FirstName = firstName,
                 LastName = lastName,
                 Email = email,
                 Birthdate = birthdate,
-                Gender = gender,
-                Password = password // Não esqueça de criptografar a senha
-            };
-
-            _context.Users.Add(user);
-            _context.SaveChanges();
-
-            TempData["Message"] = "Conta criada com sucesso!";
-            return RedirectToAction("Index", "Entrar");
+                Gender = gender
+            });
         }
     }
 }
